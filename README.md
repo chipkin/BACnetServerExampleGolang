@@ -4,7 +4,7 @@ A basic BACnet IP server example written in Golang using the [CAS BACnet Stack](
 
 ## Compile and Run
 
-Download the source and place the [CAS BACnet Stack DLL/so](https://store.chipkin.com/services/stacks/bacnet-stack) and [CASBACnetStackDLL.h](https://store.chipkin.com/services/stacks/bacnet-stack) in the source directory. 
+Download the example source and place the [CAS BACnet Stack DLL/so](https://store.chipkin.com/services/stacks/bacnet-stack) and [CASBACnetStackDLL.h](https://store.chipkin.com/services/stacks/bacnet-stack) in the source directory. 
 
 Linux: Replace backslash with slash in `go.mod`
 
