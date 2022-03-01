@@ -101,6 +101,8 @@ func goCallbackSendMessage(message unsafe.Pointer, messageLength C.uint16_t, con
 //export goCallbackGetSystemTime
 func goCallbackGetSystemTime() C.time_t {
 	return C.longlong(time.Now().Unix())
+	// For systems with 32 bit time:
+	// return C.long(time.Now().Unix())
 }
 
 //export goCallbackLogDebugMessage
